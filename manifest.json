@@ -1,7 +1,7 @@
 {
   "vendor": "tiendasd1",
   "name": "advance-geolocation",
-  "version": "0.0.7",
+  "version": "0.0.8-beta.0",
   "title": "Modal selección de dirección",
   "description": "Modal selección de dirección",
   "defaultLocale": "es-CO",

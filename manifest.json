@@ -1,18 +1,30 @@
 {
-  "vendor": "CHANGE_ME",
-  "name": "CHANGE_ME",
-  "version": "0.0.0",
-  "title": "CHANGE_ME",
-  "description": "CHANGE_ME",
+  "vendor": "tiendasd1",
+  "name": "advance-geolocation",
+  "version": "0.0.7",
+  "title": "Modal selección de dirección",
+  "description": "Modal selección de dirección",
+  "defaultLocale": "es-CO",
   "builders": {
-    "react": "3.x",
     "messages": "1.x",
+    "store": "0.x",
+    "react": "3.x",
     "docs": "0.x"
   },
-  "dependencies": {},
-  "registries": [
-    "smartcheckout"
-  ],
-  "policies": [],
+  "mustUpdateAt": "2019-04-02",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.css-handles": "0.x",
+    "vtex.store": "2.x",
+    "vtex.store-resources": "0.x",
+    "vtex.store-image": "0.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.render-runtime": "8.x",
+    "vtex.add-to-cart-button": "0.x",
+    "vtex.modal-layout": "0.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
